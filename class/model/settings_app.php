@@ -22,7 +22,6 @@
 
 
     class DatabaseSettings {
-
         private const DB_NAME     = "";
         private const DB_USER     = "";
         private const DB_HOST     = "";
@@ -47,7 +46,7 @@
         public function getApiKeyName   () { return $this::API_KEY_NAME; }
         public function getApiTestName  () { return $this::API_TEST_NAME; }
         public function getApiTestsList () { return $this::API_TESTS_LIST; }
-        public function getApiMainURL   () { RETURN $this::API_MAIN_URL; }  
+        public function getApiMainURL   () { return $this::API_MAIN_URL; }  
     }
 
 ?>
